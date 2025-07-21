@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    background-color:#111827;
+}
+
+@font-face {
+    font-family: timer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.home-container,
+.guest-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-text,
+.guest-text {
+    font-size: 30px;
+    color: white;
+}
+
+.home-score,
+.guest-score {
+    width: 130px;
+    height: 100px;
+    font-family: timer;
+    font-size: 70px;
+    margin-top: -20px;
+    padding-top: 10px;
+    color: lightcoral;
+    border: 0;
+    border-radius: 7px;
+    background-color: black;
+}
+
+.home-buttons,
+.guest-buttons {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.home-buttons button,
+.guest-buttons button {
+    font-family: timer;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid lightcyan;
+    border-radius: 4px;
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+} 
+
+.home-buttons button:hover {
+    background-color: lightgray;
+    color: #111827;
+    border-color: #111827;
+}
+
+.guest-buttons button:hover {
+    background-color: lightgray;
+    color: #111827;
+    border-color: #111827;
+}
+
+.newgame-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.newgame {
+    width: 200px;
+    height: 40px;
+    background-color: darkred;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 5px black;
+}
